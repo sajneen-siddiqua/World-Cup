@@ -61,15 +61,6 @@ body{
     font-weight: 600;
 }
 
-
- 
- 
-
-
-
-
-
-
 /* section 2 */
 .section-2{
     display: flex;
@@ -140,4 +131,55 @@ body{
 }
 .fa-rocketchat{
     margin-left: 40px;
+}
+/* footer part */
+
+.footer{
+   background-color: black;
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+   
+}
+.footer-container{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+}
+.footer-container h2{
+    font-size: 2em;
+    padding-bottom: 50px;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+    
+}
+.contact span{
+    margin-right: 40px;
+    padding-top: 15px;
+    color: #ccc;
+    flex-wrap: nowrap;
+   
+}
+.socials{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 1rem 0 3rem 0 ;
+    padding-top: 30px;
+    }
+.socials li{
+    margin: 0 10px;
+}  
+.socials a{
+    text-decoration: none;
+    color: #fff ;
+}  
+.socials a i{
+    font-size: 1.1rem;
 }
