@@ -195,9 +195,64 @@ hr{
 
 /* media queries */
 
+/* tab devices */
+@media only screen and (max-width:992px){
+.section-2{
+    display: grid;
+    grid-template-columns: 1,1fr;
+    justify-content: center;
+} 
+.transfer-content{
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 7rem;
+}
+.grid-container{
+    width: 100%;
+}
+.side-nav{
+    margin-left: 14rem;
+    margin-bottom: 2rem;
+}
+}
+
+
 /* mobile devices */
-/* @media only screen and (max-width:688px;){
-
-} */
+    @media only screen and (max-width:688px){
+        .top-banner{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner-text{
+            width: 100%;
+        }
+        .banner-img{
+            width: 100%;
+            padding-left: 7rem;
+           
+            }
+        .section-2{
+            display: grid;
+            grid-template-columns: 1,1fr;
+            justify-content: center;
+        } 
+        .side-nav{
+            margin-left: 7rem;
+            margin-bottom: 2rem;
+        }
+        .nav-btn{
+            border: 1px solid lightgray;
+        }   
+        .transfer-content{
+            grid-template-columns: repeat(1,1fr);
+            margin-left: 7rem;
+        }
+        .contact span{
+            display: grid;
+        }
+        .footer-container{
+            margin-top: 5rem;
+        }
+    }
+       
     
-
